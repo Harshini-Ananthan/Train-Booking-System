@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking System</title>
+    <link rel="stylesheet" th:href="@{/css/home.css}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Train Booking System</h1>
+        </div>
+    </header>
+
+    <!-- Hero / Welcome Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Train Booking System</h2>
+            <p>Book your train tickets and manage your bookings efficiently.</p>
+        </div>
+    </section>
+
+    <!-- Main Navigation / Buttons -->
+    <section class="dashboard">
+        <div class="containergrid">
+            <a href="/tickets/new" class="card">
+                <h3>Book Tickets</h3>
+                <p>Reserve your seat easily and quickly.</p>
+            </a>
+            <a href="/tickets" class="card">
+                <h3>Booked Tickets</h3>
+                <p>View all your booked tickets here.</p>
+            </a>
+            <a href="/users" class="card">
+                <h3>Registered Users</h3>
+                <p>Check the list of registered users.</p>
+            </a>
+            <a href="/trains" class="card">
+                <h3>Registered Trains</h3>
+                <p>View all available trains and schedules.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Train Booking System. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
