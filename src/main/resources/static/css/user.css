@@ -14,7 +14,7 @@ body {
 
 /* Headings */
 h1 {
-    color: #1a73e8;
+    color: #0b92a4;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ form input[type="email"] {
 
 form input[type="text"]:focus,
 form input[type="email"]:focus {
-    border-color: #1a73e8;
+    border-color: #0b92a4;
     outline: none;
 }
 
@@ -56,7 +56,7 @@ form input[type="email"]:focus {
 form button {
     width: 100%;
     padding: 12px;
-    background-color: #1a73e8;
+    background-color: #0b92a4;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -66,7 +66,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #155ab6;
+    background-color: #0b92a4;
 }
 
 /* Table Styling */
@@ -86,7 +86,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #1a73e8;
+    background-color: #0b92a4;
     color: #fff;
     font-weight: 600;
 }
@@ -101,7 +101,7 @@ table tr:hover {
 
 table a {
     text-decoration: none;
-    color: #1a73e8;
+    color: #0b92a4;
     font-weight: 500;
     margin-right: 10px;
 }
@@ -115,7 +115,7 @@ a[href="/users/new"] {
     display: inline-block;
     margin-bottom: 15px;
     padding: 10px 15px;
-    background-color: #1a73e8;
+    background-color: #0b92a4;
     color: #fff;
     border-radius: 6px;
     text-decoration: none;
@@ -123,5 +123,37 @@ a[href="/users/new"] {
 }
 
 a[href="/users/new"]:hover {
-    background-color: #155ab6;
+    background-color: #0b92a4;
+}
+
+/* Add New Train Link */
+a[href="/trains/new"] {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #0b92a4;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a[href="/trains/new"]:hover {
+    background-color: #0b92a4;
+}
+
+/* Add New Ticket Link */
+a[href="/tickets/new"] {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: #0b92a4;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a[href="/tickets/new"]:hover {
+    background-color: #0b92a4;
 }
